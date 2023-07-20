@@ -70,7 +70,7 @@ int main()
  
    file_in.open(Good_Result, ifstream::in | std::ifstream::out);
   
-   file_in.open(Good_Result);
+   
 
   if (file_in.is_open())
   {
@@ -90,7 +90,7 @@ int main()
 
   file_in.open(Current_Result, ifstream::in | std::ifstream::out);
 
-  file_in.open(Current_Result);
+  
 
 if (file_in.is_open())
 {
